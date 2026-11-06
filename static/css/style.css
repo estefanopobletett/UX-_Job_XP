@@ -84,15 +84,19 @@ footer {
 
 .form-card {
     background-color: #ffffff;
-
     border-radius: 12px;
     padding: 30px 24px;
     width: 100%;
-    max-width: 580px;
+    max-width: 680px;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+}
+
+.form-card.text-left {
+    align-items: flex-start;
+    text-align: left;
 }
 
 .big-logo {
@@ -116,14 +120,22 @@ footer {
     color: #000000;
 }
 
+.page-title.text-left {
+    text-align: left;
+    font-size: 26px;
+    line-height: 1.25;
+    margin-bottom: 28px;
+    width: 100%;
+}
+
 .badge-tag {
-    background-color: #ffffff;
+    background-color: #d9d9d9;
     border: 1px solid #777777;
-    padding: 4px 14px;
-    border-radius: 14px;
-    font-size: 13px;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 14px;
     color: #000000;
-    margin-bottom: 20px;
+    margin-bottom: 24px;
     display: inline-block;
 }
 
@@ -183,9 +195,9 @@ footer {
     padding: 12px 20px;
     background-color: #6a0ded;
     color: #ffffff;
-    border: 1.5px solid #4a00b8;
+    border: 1.5px solid #000000;
     border-radius: 14px;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: bold;
     cursor: pointer;
     text-decoration: none;
@@ -196,18 +208,18 @@ footer {
 
 .btn-secondary {
     width: 100%;
-    padding: 10px 20px;
+    padding: 12px 20px;
     background-color: #d9d9d9;
     color: #000000;
-    border: 1.5px solid #555555;
+    border: 1.5px solid #000000;
     border-radius: 14px;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: bold;
     cursor: pointer;
     text-decoration: none;
     text-align: center;
     display: inline-block;
-    margin-top: 12px;
+    margin-top: 14px;
 }
 
 .form-footer-link {
