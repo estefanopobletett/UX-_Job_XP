@@ -1,63 +1,51 @@
 <!DOCTYPE html>
 <html lang="es">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JobXp - Iniciar Sesión</title>
-    <link rel="stylesheet" href="../css/register.css">
+    <title>JobXp - Crear cuenta</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
-
 <body>
+    <header>
+        <a href="../../index.html" class="logo-link">
+            <span class="logo-job">Job</span><span class="logo-xp">Xp</span>
+        </a>
+        <a href="perfil.html">
+            <img src="../images/default-avatar-photo-icon-social-media.png" alt="Perfil" class="avatar-icon">
+        </a>
+    </header>
 
-    <div class="contenedor-principal">
-
-        <header class="barra-navegacion">
-            <div class="logo logo-navegacion">Job<span class="morado">Xp</span></div>
-            <div class="icono-usuario">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#b0b0b0" stroke-width="2">
-                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
-                    <circle cx="12" cy="7" r="4"></circle>
-                </svg>
+    <main class="main-container">
+        <div class="form-card">
+            <div class="big-logo">
+                <span class="logo-job">Job</span><span class="logo-xp">Xp</span>
             </div>
-        </header>
+            <p class="subtitle">Crear cuenta</p>
 
-        <main class="contenido-principal">
-            <div class="parte-superior">
-                <h1 class="logo logo-principal">Job<span class="morado">Xp</span></h1>
-                <p class="subtitulo">Registrate</p>
-            </div>
-
-            <form class="formulario" action="">
-                <div class="grupo-entrada">
-                    <label for="email">Correo electrónico</label>
-                    <input type="email" id="email" required>
+            <form action="#" style="width: 100%;">
+                <div class="form-group">
+                    <label>Correo electronico</label>
+                    <input type="email" class="form-input" required>
                 </div>
-
-                <div class="grupo-entrada">
-                    <label for="password">Contraseña</label>
-                    <input type="password" id="password" required>
+                <div class="form-group">
+                    <label>Contraseña</label>
+                    <input type="password" class="form-input" required>
                 </div>
-                                <div class="grupo-entrada">
-                    <label for="password">Confirmar Contraseña</label>
-                    <input type="password" id="password" required>
+                <div class="form-group">
+                    <label>Confirmar contraseña</label>
+                    <input type="password" class="form-input" required>
                 </div>
-
-                <button type="submit" class="boton-principal">Crear cuenta</button>
+                <a href="main.html" class="btn-primary">Crear cuenta</a>
             </form>
+        </div>
+    </main>
 
-            <p class="texto-registro">
-                ¿Ya tienes cuenta? <a href="#">Inicia sesión aquí</a>
-            </p>
-        </main>
-
-        <footer class="pie-pagina">
-            <span class="logo logo-pie">Job<span class="morado">Xp</span></span>
-            <span class="derechos-autor">todos los derechos<br>reservados. JobXp</span>
-        </footer>
-
-    </div>
-
+    <footer>
+        <div class="logo-link" style="font-size: 22px;">
+            <span class="logo-job">Job</span><span class="logo-xp">Xp</span>
+        </div>
+        <span>todos los derechos reservados. JobXP</span>
+    </footer>
 </body>
-
 </html>
