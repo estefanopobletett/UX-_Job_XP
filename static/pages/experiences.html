@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JobXp - Busca experiencias</title>
+    <title>JobXp - Experiencias</title>
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
@@ -17,28 +17,53 @@
     </header>
 
     <main class="main-container">
-        <div class="form-card" style="max-width: 760px;">
-            <h2 class="page-title" style="align-self: flex-start;">Busca experiencias</h2>
+        <div class="form-card wide-card">
+            <h1 class="page-title">Busca experiencias</h1>
+            <p class="page-subtext" style="margin-bottom: 16px;">Tu próximo paso empieza aquí.</p>
+
             <div class="form-group">
-                <label>buscar</label>
+                <label>Buscar por puesto</label>
                 <input type="text" class="form-input">
             </div>
 
-            <div class="card-wrapper" style="margin-top: 10px;">
-                <a href="programador.html" class="job-card">
-                    <img src="../images/programador.png" alt="programador">
-                    <h3>programador</h3>
-                    <p>puesto de programador junior</p>
+            <div class="cards-flex">
+                <a href="programador.html" class="exp-card">
+                    <div class="exp-header">
+                        <img src="../images/programador.png" alt="Programador junior" class="exp-thumb">
+                        <div>
+                            <div class="exp-title">Programador junior</div>
+                            <div class="exp-subtitle">Desarrollo front-end</div>
+                        </div>
+                    </div>
+                    <div class="exp-badge">No requiere experiencia</div>
+                    <div class="exp-price">$10.000 / hora</div>
+                    <div class="exp-meta">
+                        <div>Ubicación: 3458 av. Cisterna</div>
+                        <div>Duración: 7 días hábiles</div>
+                    </div>
                 </a>
 
-                <a href="aydante.html" class="job-card">
-                    <img src="../images/taller.jfif" alt="ayudante taller">
-                    <h3>ayudante taller</h3>
-                    <p>ayudante en taller mecanico</p>
+                <a href="aydante.html" class="exp-card">
+                    <div class="exp-header">
+                        <img src="../images/taller.jfif" alt="Ayudante de taller" class="exp-thumb">
+                        <div>
+                            <div class="exp-title">Ayudante de taller</div>
+                            <div class="exp-subtitle">Taller mecánico</div>
+                        </div>
+                    </div>
+                    <div class="exp-badge">No requiere experiencia</div>
+                    <div class="exp-price">$7.000 / hora</div>
+                    <div class="exp-meta">
+                        <div>Ubicación: 3467 av. Cisterna</div>
+                        <div>Duración: 15 días hábiles</div>
+                    </div>
                 </a>
             </div>
 
-            <a href="main.html" class="btn-secondary" style="max-width: 240px; margin-top: 24px;">volver al inicio</a>
+            <div class="button-row">
+                <a href="main.html" class="btn-secondary">Volver al inicio</a>
+                <a href="solicitudes.html" class="btn-primary">Mis solicitudes</a>
+            </div>
         </div>
     </main>
 
@@ -46,7 +71,10 @@
         <div class="logo-link" style="font-size: 22px;">
             <span class="logo-job">Job</span><span class="logo-xp">Xp</span>
         </div>
-        <span>todos los derechos reservados. <br> JobXP</span>
+        <div class="footer-rights">
+            <div>Todos los derechos</div>
+            <div>reservados. JobXp</div>
+        </div>
     </footer>
 </body>
 </html>
